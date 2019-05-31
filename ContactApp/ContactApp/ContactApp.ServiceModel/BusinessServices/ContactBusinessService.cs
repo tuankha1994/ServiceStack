@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ContactApp.ServiceModel.BusinessServices
 {
+    //Service tier: Contact business service
     public class ContactBusinessService : IContactBusinessService
     {
         private readonly IUnitOfWork _uow;
@@ -44,7 +45,6 @@ namespace ContactApp.ServiceModel.BusinessServices
             if (checkExistedName == true)
             {
                 return new ResponseResult { Status = "Existed" };
-
             }
             var newContact = new Contact { Name = contact.Name, Address = contact.Address };
 
