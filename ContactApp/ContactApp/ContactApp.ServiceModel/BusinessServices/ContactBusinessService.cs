@@ -44,6 +44,7 @@ namespace ContactApp.ServiceModel.BusinessServices
             if (checkExistedName == true)
             {
                 return new ResponseResult { Status = "Existed" };
+
             }
             var newContact = new Contact { Name = contact.Name, Address = contact.Address };
 
