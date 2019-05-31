@@ -1,0 +1,2 @@
+D:\Sources\ContactApp\ContactApp\ContactApp.Tests\obj\Debug\ContactApp.Tests.csprojAssemblyReference.cache
+D:\Sources\ContactApp\ContactApp\ContactApp.Tests\obj\Debug\ContactApp.Tests.csproj.CoreCompileInputs.cache

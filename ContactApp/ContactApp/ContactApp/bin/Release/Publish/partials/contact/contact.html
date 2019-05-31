@@ -1,0 +1,12 @@
+﻿<div kendo-grid options="contactsGridOptions">
+    <div k-detail-template>
+        <kendo-tabstrip>
+            <ul>
+                <li class="k-state-active">Phone number</li>
+            </ul>
+            <div>
+                <div kendo-grid k-options="contactDetailGridOptions(dataItem)"></div>
+            </div>
+        </kendo-tabstrip>
+    </div>
+</div>
