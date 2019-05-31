@@ -1,2 +1,2 @@
 # ServiceStack
-Demo Repository and Unit of Work partten with ServiceStack-OrmLite
+Demo Combine Repository and UnitOfWork pattern with ServiceStack-OrmLite
